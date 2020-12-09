@@ -137,7 +137,7 @@ export default function App() {
         <div>
           <h3>{name}</h3>
           <p>{desc}</p>
-          <p style={{ fontWeight: "bold" }}>{rating}</p>
+          <p style={{ fontWeight: "bold" }} >{rating}</p>
         </div>
       </li>
     );
