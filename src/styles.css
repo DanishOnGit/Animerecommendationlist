@@ -68,7 +68,10 @@ button {
   width: 100px;
   padding: 1rem;
 }
-
+button:hover{
+  background-color:rgb(211, 211, 211,0.3);
+  transition-duration: 500ms ;
+}
 
 footer{
 
