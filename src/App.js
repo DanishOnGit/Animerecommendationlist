@@ -115,7 +115,9 @@ export default function App() {
       <div className="header">
         <h1><span>📺</span> Anime Time</h1>
         <p>Showing you the list of best anime of all time.</p>
-        <ul className="genrelist">
+        </div>
+        <div>
+          <ul className="genrelist">
           {databaseArray.map((genre) => {
             return (
               <li className="genreList" key={genre}>
