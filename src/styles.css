@@ -38,7 +38,8 @@ button {
   border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
-  color: black;
+  color: white;
+  font-size: 1rem;
 }
 .animeposters {
   min-height: 150px;
