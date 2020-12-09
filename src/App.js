@@ -150,7 +150,7 @@ export default function App() {
         <h1><span>📺</span> An<span style={{color:icolor}}>i</span>me T<span style={{color:icolor}}>i</span>me</h1>
         <p>Showing you the list of best anime of all time.</p>
         </div>
-        <div>
+        <div className="buttondiv">
           <ul className="genrelist">
           {databaseArray.map((genre) => {
             return (
