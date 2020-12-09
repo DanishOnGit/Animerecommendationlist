@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 var database = {
-  action: [
+  Action: [
     {
       name: "One Piece",
       rating: "9/10",
@@ -19,10 +19,18 @@ var database = {
         "The protagonist, Baki Hanma, trains with an intense focus to become strong enough to surpass his father, Yujiro Hanma, the strongest fighter in the world.",
       image:
         "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F04%2Fnetflix-baki-season-2-opening-watch-000.jpg?fit=max&cbr=1&q=90&w=750&h=500"
+    },
+    {
+      name: "Dragon Ball Z",
+      rating: "8.5/10",
+      description:
+        "After learning that he is from another planet, a warrior named Goku and his friends are prompted to defend it from an onslaught of extraterrestrial enemies.",
+      image:
+        "https://cdn.myanimelist.net/s/common/uploaded_files/1450926267-b45d7dd4f60c8c4b46aac37185305d4d.jpeg"
     }
   ],
 
-  thriller: [
+  Thriller: [
     {
       name: "The Future Diary",
       rating: "8 / 10",
@@ -39,10 +47,18 @@ var database = {
         "After death, humans go to either heaven or hell. But for some, at the instant of their death, they arrive at the Quindecim, a bar attended by the mysterious white-haired Decim.",
       image:
         "https://cdn.myanimelist.net/s/common/uploaded_files/1477101262-67e64868d9f281b63d8fd8255048e530.jpeg"
+    },
+    {
+      name: "Rainbow",
+      rating: "8.5 / 10",
+      description:
+        " The anime follows the story of seven teenagers locked in a reformatory, waiting for a ray of light in a daily hell of suffering and humiliation, focusing especially on how they faced the life once regained freedom.",
+      image:
+        "https://cdn.myanimelist.net/s/common/uploaded_files/1481523814-3be0d6b9e24487323db73f5a746221d9.png"
     }
   ],
 
-  drama: [
+  Drama: [
     {
       name: "A Silent Voice",
       rating: "7 / 10",
@@ -62,7 +78,7 @@ var database = {
     }
   ],
 
-  mystery: [
+  Mystery: [
     {
       name: "Death Note",
       rating: "10/10",
@@ -86,7 +102,7 @@ var database = {
 var databaseArray = Object.keys(database);
 
 export default function App() {
-  const [animeGenre, setAnimeGenre] = useState(database.action);
+  const [animeGenre, setAnimeGenre] = useState(database.Action);
   function btnClickHandler(genre) {
     var series = database[genre];
     setAnimeGenre(series);
@@ -113,7 +129,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1><span>📺</span> Anime Time</h1>
+        <h1><span>📺</span> An<span style={{color:"blue"}}>i</span>me T<span style={{color:"blue"}}>i</span>me</h1>
         <p>Showing you the list of best anime of all time.</p>
         </div>
         <div>
