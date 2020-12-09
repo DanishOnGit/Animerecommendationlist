@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  color: white;
+}
+body {
+  background-color: black;
+  margin: 0.5rem;
+}
+
+.genrelist {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+}
+.genrelist li {
+  padding: 0.5rem 1.2rem;
+}
+.outputlist {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.outputlist li {
+  border: 1px solid white;
+  display: flex;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+button {
+  border-radius: 1rem;
+  background-color: blue;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+}
+img {
+  min-height: 150px;
+  width: 100px;
+  padding: 1rem;
+}
