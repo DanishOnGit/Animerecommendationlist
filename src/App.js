@@ -134,10 +134,10 @@ export default function App() {
     var obj = (
       <li key={details}>
         <img className="animeposters"src={imageUrl} alt="poster" />
-        <div>
+        <div className="descriptiondiv">
           <h3>{name}</h3>
           <p>{desc}</p>
-          <p style={{ fontWeight: "bold" }} >{rating}</p>
+          <p style={{ fontWeight: "bold" }} className="rating" >{rating}</p>
         </div>
       </li>
     );
