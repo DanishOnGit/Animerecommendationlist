@@ -75,6 +75,14 @@ var database = {
         "A high school student who cares little about school or others meets a lonely girl who had to repeat a year while all her friends finished high school. He decides to hang out with her and soon meets more friendly students.",
       image:
         "https://imgix.ranker.com/user_node_img/1141/22800459/original/clannad-photo-u22?fit=crop&fm=pjpg&q=60&w=650&dpr=2"
+    },
+    {
+      name: "Violent Evergarden",
+      rating: "8.5 / 10",
+      description:
+        "In the aftermath of a great war, Violet Evergarden, a young female ex-soldier, gets a job at a writers' agency and goes on assignments to create letters that can connect people.",
+      image:
+        "https://cdn.myanimelist.net/images/anime/1795/95088.jpg"
     }
   ],
 
@@ -95,6 +103,14 @@ var database = {
         "The cases of a detective whose physical age was chemically reversed to that of a prepubescent boy but must hide his true mental development.",
       image:
         "https://cdn.myanimelist.net/s/common/uploaded_files/1463851090-b6e49361b137620a71f26f5f32983ef8.jpeg"
+    },
+    {
+      name: "Gosick",
+      rating: "8/10",
+      description:
+        "Kazuya Kujo is a transfer student to St. Marguerite Academy,a place where myths and superstitions are abundant. There he meets Victorique, a mysterious, yet highly intelligent girl.",
+      image:
+        "https://cdn.myanimelist.net/images/anime/11/27906.jpg"
     }
   ]
 };
