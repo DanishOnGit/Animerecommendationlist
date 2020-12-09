@@ -2,7 +2,7 @@
   font-family: sans-serif;
   text-align: left;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
   color: white;
 }
@@ -31,16 +31,33 @@ body {
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
+
 button {
   border-radius: 1rem;
   background-color: blue;
   border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
-  color: white;
+  color: black;
 }
-img {
+.animeposters {
   min-height: 150px;
   width: 100px;
   padding: 1rem;
+}
+button :hover{
+ 
+}
+
+footer{
+
+text-align: center;
+padding: 2rem;
+}
+.social-icon{
+  height: 2rem;
+  width: 2rem;
+  background-color: rgb(4, 0, 255);
+  border-radius: 50%;
+  
 }

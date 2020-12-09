@@ -4,7 +4,7 @@ import "./styles.css";
 var database = {
   action: [
     {
-      name: "One piece",
+      name: "One Piece",
       rating: "9/10",
       description:
         "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named One Piece. ",
@@ -24,7 +24,7 @@ var database = {
 
   thriller: [
     {
-      name: "The future diary",
+      name: "The Future Diary",
       rating: "8 / 10",
       description:
         "A young man competes with people around the world for a chance to become the succesor of God, with a diary that is able to tell the future.",
@@ -33,7 +33,7 @@ var database = {
     },
 
     {
-      name: "Death parade",
+      name: "Death Parade",
       rating: "8 / 10",
       description:
         "After death, humans go to either heaven or hell. But for some, at the instant of their death, they arrive at the Quindecim, a bar attended by the mysterious white-haired Decim.",
@@ -44,7 +44,7 @@ var database = {
 
   drama: [
     {
-      name: "A silent voice",
+      name: "A Silent Voice",
       rating: "7 / 10",
       description:
         "A young man is ostracized by his classmates after he bullies a deaf girl to the point where she moves away. Years later, he sets off on a path for redemption.",
@@ -99,7 +99,7 @@ export default function App() {
     var desc = details.description;
     var obj = (
       <li key={details}>
-        <img src={imageUrl} alt="poster" />
+        <img className="animeposters"src={imageUrl} alt="poster" />
         <div>
           <h3>{name}</h3>
           <p>{desc}</p>
@@ -113,7 +113,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1>Anime Times!</h1>
+        <h1><span>📺</span> Anime Times!</h1>
         <p>Showing you the list of best anime of all times.</p>
         <ul className="genrelist">
           {databaseArray.map((genre) => {
@@ -133,6 +133,16 @@ export default function App() {
           return outputHandler(series);
         })}
       </ul>
+
+      <footer>
+              <a href="https://github.com/DanishOnGit" target="_blank">
+                <img
+                  src="https://www.flaticon.com/svg/static/icons/svg/733/733609.svg"
+                  alt="icon"
+                  className="social-icon"
+                ></img>
+              </a>
+        </footer>
     </div>
   );
 }
