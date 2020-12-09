@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 .App {
-  font-family: sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-align: left;
   width: 100%;
   max-width: 800px;
@@ -40,6 +41,7 @@ button {
   cursor: pointer;
   color: white;
   font-size: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .animeposters {
   min-height: 150px;
