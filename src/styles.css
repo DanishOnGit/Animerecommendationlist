@@ -11,6 +11,13 @@ body {
   background-color: black;
   padding: 0.5rem;
 }
+.header h1{
+font-weight: 700;
+letter-spacing: 2px
+}
+.header p{
+  color: gray
+}
 
 .genrelist {
   list-style: none;
