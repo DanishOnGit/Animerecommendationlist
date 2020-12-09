@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./styles.css";
 
+var icolor= "rgb(2,163,29)";
+
 var database = {
   Action: [
     {
@@ -145,7 +147,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1><span>📺</span> An<span style={{color:"blue"}}>i</span>me T<span style={{color:"blue"}}>i</span>me</h1>
+        <h1><span>📺</span> An<span style={{color:icolor}}>i</span>me T<span style={{color:icolor}}>i</span>me</h1>
         <p>Showing you the list of best anime of all time.</p>
         </div>
         <div>

@@ -55,7 +55,7 @@ letter-spacing: 2px;
 
 button {
   border-radius:2rem;
-  background-color: blue;
+  background-color: rgb(2, 163, 29);
   border: none;
   padding: 0.5rem 2rem;
   cursor: pointer;
@@ -81,7 +81,7 @@ padding: 2rem;
 .social-icon{
   height: 2rem;
   width: 2rem;
-  background-color: rgb(4, 0, 255);
+  background-color: rgb(2, 163, 29);
   border-radius: 50%;
 }
 
