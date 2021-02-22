@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-var icolor= "rgb(2,163,29)";
+const icolor= "rgb(2,163,29)";
 
-var database = {
+const database = {
   Action: [
     {
       name: "One Piece",
@@ -117,21 +117,21 @@ var database = {
   ]
 };
 
-var databaseArray = Object.keys(database);
+let databaseArray = Object.keys(database);
 
 export default function App() {
   const [animeGenre, setAnimeGenre] = useState(database.Action);
   function btnClickHandler(genre) {
-    var series = database[genre];
+    let series = database[genre];
     setAnimeGenre(series);
   }
 
   function outputHandler(details) {
-    var name = details.name;
-    var rating = details.rating;
-    var imageUrl = details.image;
-    var desc = details.description;
-    var obj = (
+    let name = details.name;
+    let rating = details.rating;
+    let imageUrl = details.image;
+    let desc = details.description;
+    let obj = (
       <li key={details}>
         <img className="animeposters"src={imageUrl} alt="poster" />
         <div className="descriptiondiv">
